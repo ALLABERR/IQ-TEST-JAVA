@@ -16,6 +16,8 @@ import com.allaber.iq.R;
 import com.allaber.iq.screens.home.HomeFragment;
 import com.allaber.iq.screens.home.HomePresenter;
 import com.allaber.iq.screens.home.HomeView;
+import com.allaber.iq.screens.test.TestFragment;
+import com.allaber.iq.screens.test.TestPresenter;
 import com.allaber.iq.utils.TextValidator;
 
 public class AgeFragment extends Fragment implements AgeView {
@@ -57,7 +59,7 @@ public class AgeFragment extends Fragment implements AgeView {
         switch (v.getId()) {
             case R.id.btnNext:
                 agePresenter.saveUserAge();
-                agePresenter.setFragment(getActivity(), HomeFragment.newInstance());
+                agePresenter.setFragment(getActivity(), TestFragment.newInstance());
                 break;
         }
     }

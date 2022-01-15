@@ -18,6 +18,10 @@ public class BasePresenter {
 
     }
 
+    public void showMainMenuDialog() {
+
+    }
+
     public void setFragment(Context context, Fragment fragment) {
         if (context instanceof NavigatorView) {
             navigatorView = (NavigatorView) context;
