@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">IQ-TEST</string>
+
+    <!-- Common -->
+    <string name="string_next">Далее</string>
+
+    <!-- HomeFragment -->
+    <string name="string_exit">Выход</string>
+    <string name="string_start_test">Начать тестирование</string>
+    <string name="string_rate_app">Оценить приложение</string>
+
+    <!-- AgeFragment -->
+    <string name="string_enter_your_age">Введите Ваш возраст</string>
+    <string name="string_your_age">Ваш возраст</string>
+
 </resources>
