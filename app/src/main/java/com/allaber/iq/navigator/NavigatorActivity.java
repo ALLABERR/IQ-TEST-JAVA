@@ -1,10 +1,12 @@
-package com.allaber.iq;
+package com.allaber.iq.navigator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.allaber.iq.R;
+
+public class NavigatorActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
