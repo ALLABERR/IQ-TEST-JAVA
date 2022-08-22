@@ -1,7 +1,7 @@
 package com.allaber.iq.screens.result.question;
 
 import com.allaber.iq.database.model.Question;
-import com.allaber.iq.utils.common.BaseView;
+import com.allaber.iq.screens.common.BaseView;
 
 public interface QuestionView extends BaseView {
     void setVisibilityButtons(boolean b);

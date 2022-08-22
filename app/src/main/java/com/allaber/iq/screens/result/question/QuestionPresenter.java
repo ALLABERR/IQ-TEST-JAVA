@@ -4,7 +4,7 @@ import android.content.Context;
 
 import com.allaber.iq.database.QuestionDAO;
 import com.allaber.iq.database.model.Question;
-import com.allaber.iq.utils.common.BasePresenter;
+import com.allaber.iq.screens.common.BasePresenter;
 
 public class QuestionPresenter extends BasePresenter {
 

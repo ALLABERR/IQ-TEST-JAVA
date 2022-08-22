@@ -4,7 +4,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.allaber.iq.database.model.Question;
-import com.allaber.iq.utils.common.BaseView;
+import com.allaber.iq.screens.common.BaseView;
 
 public interface TestView extends BaseView {
     Integer getTimerText();

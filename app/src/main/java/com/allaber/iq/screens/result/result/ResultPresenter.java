@@ -9,7 +9,7 @@ import android.provider.MediaStore;
 import androidx.fragment.app.FragmentActivity;
 
 import com.allaber.iq.R;
-import com.allaber.iq.utils.common.BasePresenter;
+import com.allaber.iq.screens.common.BasePresenter;
 
 import java.io.ByteArrayOutputStream;
 

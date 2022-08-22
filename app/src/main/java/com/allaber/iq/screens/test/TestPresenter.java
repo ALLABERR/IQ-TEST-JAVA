@@ -3,7 +3,6 @@ package com.allaber.iq.screens.test;
 import android.content.Context;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 
 import androidx.fragment.app.FragmentActivity;
 
@@ -12,7 +11,7 @@ import com.allaber.iq.database.QuestionDAO;
 import com.allaber.iq.database.model.Question;
 import com.allaber.iq.screens.age.AgeFragment;
 import com.allaber.iq.task.TestTimerTask;
-import com.allaber.iq.utils.common.BasePresenter;
+import com.allaber.iq.screens.common.BasePresenter;
 
 import java.util.Timer;
 

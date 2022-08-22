@@ -1,4 +1,4 @@
-package com.allaber.iq.utils.common;
+package com.allaber.iq.screens.common;
 
 import android.view.View;
 

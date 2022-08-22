@@ -29,11 +29,9 @@ public class NavigatorActivity extends AppCompatActivity implements NavigatorVie
 
     @Override
     public void setApplicationLanguage() {
-
     }
 
     @Override
     public void recreateActivity() {
-
     }
 }

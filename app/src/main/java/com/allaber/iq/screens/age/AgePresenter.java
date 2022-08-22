@@ -3,7 +3,7 @@ package com.allaber.iq.screens.age;
 import static com.allaber.iq.utils.Utils.isBlankString;
 
 import com.allaber.iq.utils.PreferenceManager;
-import com.allaber.iq.utils.common.BasePresenter;
+import com.allaber.iq.screens.common.BasePresenter;
 
 public class AgePresenter extends BasePresenter {
 

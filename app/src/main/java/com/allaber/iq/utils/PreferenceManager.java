@@ -1,7 +1,7 @@
 package com.allaber.iq.utils;
 
-import static com.allaber.iq.utils.Thesaurus.APP_PREFERENCES;
-import static com.allaber.iq.utils.Thesaurus.USER_AGE;
+import static com.allaber.iq.utils.Constants.APP_PREFERENCES;
+import static com.allaber.iq.utils.Constants.USER_AGE;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -21,7 +21,7 @@ public class PreferenceManager {
         spEditor.apply();
     }
 
-    public int getUserAge(){
+    public int getUserAge() {
         return sharedPreferences.getInt(USER_AGE, 0);
     }
 }

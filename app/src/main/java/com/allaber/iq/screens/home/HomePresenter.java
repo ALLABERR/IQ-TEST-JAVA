@@ -1,6 +1,6 @@
 package com.allaber.iq.screens.home;
 
-import com.allaber.iq.utils.common.BasePresenter;
+import com.allaber.iq.screens.common.BasePresenter;
 
 public class HomePresenter extends BasePresenter {
 
