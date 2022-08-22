@@ -9,16 +9,36 @@ import android.provider.MediaStore;
 import androidx.fragment.app.FragmentActivity;
 
 import com.allaber.iq.R;
+import com.allaber.iq.database.QuestionDAO;
+import com.allaber.iq.database.model.Question;
 import com.allaber.iq.screens.common.BasePresenter;
 
 import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
 
 public class ResultPresenter extends BasePresenter {
 
+    private ResultCalculator resultCalculator;
+    private QuestionDAO questionDAO;
     private ResultView view;
 
     public ResultPresenter(ResultFragment view) {
+        this.resultCalculator = new ResultCalculator(view.getContext());
+        questionDAO = new QuestionDAO(view.getContext());
         this.view = view;
+    }
+
+    public void displayTheResult(){
+        ArrayList<Question> allQuestion = getAllQuestion();
+        int resultScore = resultCalculator.getResultScore(allQuestion);
+        String resultText = resultCalculator.getResultText(resultScore);
+        view.setResultScore("" + resultScore);
+        view.setResultText(resultText);
+    }
+
+
+    public ArrayList<Question> getAllQuestion(){
+        return questionDAO.getAllQuestion();
     }
 
     public void shareResult(FragmentActivity activity) {

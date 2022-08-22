@@ -1,5 +1,9 @@
 package com.allaber.iq.database;
 
+import static com.allaber.iq.utils.Constants.DB_NAME;
+import static com.allaber.iq.utils.Constants.DB_PATH;
+import static com.allaber.iq.utils.Constants.DB_VERSION;
+
 import android.content.Context;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
@@ -12,9 +16,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-    private static String DB_NAME = "questions.db";
-    private static String DB_PATH = "";
-    private static final int DB_VERSION = 1;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;

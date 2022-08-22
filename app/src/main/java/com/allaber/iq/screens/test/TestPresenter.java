@@ -57,7 +57,7 @@ public class TestPresenter extends BasePresenter {
     public void startTimer(FragmentActivity fragmentActivity) {
         timer = new Timer();
         testTimerTask = new TestTimerTask(fragmentActivity, this);
-        timer.schedule(testTimerTask, 10, 1000);
+        timer.schedule(testTimerTask, 60000, 1000);
     }
 
     public Integer getTimerText() {

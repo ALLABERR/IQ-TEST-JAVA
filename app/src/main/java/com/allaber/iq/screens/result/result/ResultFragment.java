@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,6 +22,8 @@ public class ResultFragment extends Fragment implements ResultView {
     private ImageView imgHome;
     private Button btnResults;
     private Button btnShare;
+    private TextView textViewResultScore;
+    private TextView textViewResultText;
 
     @Nullable
     @Override
@@ -29,6 +32,7 @@ public class ResultFragment extends Fragment implements ResultView {
         resultPresenter = new ResultPresenter(this);
         initiationViewElements(view);
         setOnClickListener();
+
         return view;
     }
 
@@ -37,6 +41,9 @@ public class ResultFragment extends Fragment implements ResultView {
         imgHome = view.findViewById(R.id.imgHome);
         btnResults = view.findViewById(R.id.btnResults);
         btnShare = view.findViewById(R.id.btnShare);
+        textViewResultScore = view.findViewById(R.id.textViewResultScore);
+        textViewResultText = view.findViewById(R.id.textViewResultText);
+        resultPresenter.displayTheResult();
     }
 
     @Override
@@ -44,6 +51,16 @@ public class ResultFragment extends Fragment implements ResultView {
         imgHome.setOnClickListener(this);
         btnResults.setOnClickListener(this);
         btnShare.setOnClickListener(this);
+    }
+
+    @Override
+    public void setResultScore(String resultScore) {
+        textViewResultScore.setText(resultScore);
+    }
+
+    @Override
+    public void setResultText(String resultText) {
+        textViewResultText.setText(resultText);
     }
 
     @Override

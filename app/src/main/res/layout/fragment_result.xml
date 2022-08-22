@@ -53,7 +53,7 @@
             android:textSize="34sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textViewResultScore"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -64,7 +64,7 @@
             android:textSize="60sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textViewResultText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_regular"
