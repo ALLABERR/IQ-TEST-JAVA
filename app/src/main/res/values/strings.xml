@@ -2,30 +2,44 @@
     <string name="app_name">IQ-TEST</string>
 
     <!-- Common -->
-    <string name="string_next">Далее</string>
+    <string name="string_next">Further</string>
 
     <!-- HomeFragment -->
-    <string name="string_exit">Выход</string>
-    <string name="string_start_test">Начать тестирование</string>
-    <string name="string_rate_app">Оценить приложение</string>
+    <string name="string_exit">Exit</string>
+    <string name="string_start_test">Start testing</string>
+    <string name="string_rate_app">Rate the app</string>
 
     <!-- AgeFragment -->
-    <string name="string_enter_your_age">Введите Ваш возраст</string>
-    <string name="string_your_age">Ваш возраст</string>
+    <string name="string_enter_your_age">Enter your age</string>
+    <string name="string_your_age">Your age</string>
 
     <!-- TestFragment -->
-    <string name="string_time_is_over">Упс, Ваше время истекло</string>
-    <string name="string_try_again">Попробуйте думать немного быстрее</string>
-    <string name="string_start_over">Начать заново</string>
+    <string name="string_time_is_over">Oops, your time is up</string>
+    <string name="string_try_again">Try to think a little faster</string>
+    <string name="string_start_over">Start over</string>
 
     <!-- ResultFragment -->
-    <string name="string_your_iq">Ваш IQ</string>
-    <string name="string_your_iq2">51</string>
-    <string name="string_your_iq3">У Вас легкая степень слабоумия</string>
-    <string name="string_view_results">Посмотреть результаты</string>
-    <string name="string_share">Поделиться</string>
+    <string name="string_result_title">Your IQ</string>
+    <string name="string_result_score">score</string>
+    <string name="string_result_text">Text</string>
+    <string name="string_view_results">See results</string>
+    <string name="string_share">Share</string>
+
+    <string name="string_result_error">Elon Musk</string>
+    <string name="string_result_1">Severe dementia</string>
+    <string name="string_result_2">Medium dementia</string>
+    <string name="string_result_3">Mild dementia</string>
+    <string name="string_result_4">Low intelligence</string>
+    <string name="string_result_5">Intelligence below average</string>
+    <string name="string_result_6">Average IQ</string>
+    <string name="string_result_7">Above average intelligence</string>
+    <string name="string_result_8">High level of intelligence</string>
+    <string name="string_result_9">Extraordinary, outstanding intellect</string>
+
+
+
 
     <!-- QuestionAdapter -->
-    <string name="string_question">Вопрос</string>
+    <string name="string_question">Question</string>
 
 </resources>

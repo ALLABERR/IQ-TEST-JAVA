@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/roboto_medium"
-            android:text="@string/string_your_iq"
+            android:text="@string/string_result_title"
             android:textAlignment="center"
             android:textColor="@color/color_white_100"
             android:textSize="34sp" />
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/roboto_bold"
-            android:text="@string/string_your_iq2"
+            android:text="@string/string_result_score"
             android:textAlignment="center"
             android:textColor="@color/color_white_100"
             android:textSize="60sp" />
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_regular"
-            android:text="@string/string_your_iq3"
+            android:text="@string/string_result_text"
             android:textAlignment="center"
             android:textColor="@color/color_white_100"
             android:textSize="20sp" />

@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_medium"
-            android:text="@string/string_your_iq"
+            android:text="@string/string_result_title"
             android:textColor="@color/color_white_100"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
